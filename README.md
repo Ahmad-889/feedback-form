@@ -50,6 +50,13 @@ src/
 
 ```
 
+## 🔗 Preview
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://ahmad-889.github.io/feedback-form/)
+
+## 📸 Screenshot
+
+![Feedback Form Screenshot](public/screenshot.png)
 
 ## Development server
 
