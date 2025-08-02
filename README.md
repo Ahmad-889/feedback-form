@@ -1,59 +1,62 @@
-# FeedbackForm
+# 📝 Angular Feedback Form
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+This is a simple Angular 19 project featuring a **responsive feedback form** with built-in validation using `FormsModule`. It demonstrates standalone component structure, form validation, conditional error rendering, and a success message upon submission.
+
+---
+
+## 🔧 What I Built
+
+I created a *Feedback Form* app with the following features:
+
+- ✅ Angular standalone component using `FormsModule`
+- 💬 Form validation with required fields and email format checks
+- 🔐 Disabled submit button when the form is invalid
+- 📬 Success message after form submission
+- 💅 Clean and responsive UI with SCSS
+
+---
+
+## 💡 Key Features
+
+- 🧠 Template-driven form using `ngModel`
+- 📛 Real-time error messages for `required` and `email`
+- 🚫 Prevents submission if form is invalid
+- 📋 Tracks form state using `#form="ngForm"` reference
+- 📦 Minimal state management via `submitted` flag
+- 📱 Mobile-responsive layout
+
+---
+
+## 🧱 Technologies Used
+
+- **Angular 19**
+- **TypeScript**
+- **HTML & SCSS**
+- **Standalone Components**
+- **FormsModule**
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+src/
+├── app/
+│   └── components/
+│       └── feedback-form/
+│           ├── feedback-form.component.ts       # Component logic and form handler
+│           ├── feedback-form.component.html     # Template with form, errors, and success
+│           ├── feedback-form.component.scss     # Styling for form, button, errors
+
+```
+
 
 ## Development server
 
 To start a local development server, run:
 
 ```bash
+npm install
+
 ng serve
 ```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
